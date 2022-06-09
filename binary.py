@@ -1,3 +1,5 @@
+#Binary search using recursive function
+
 def binarysearch(a,lower,higher,x):
 	if higher>=lower:
 		mid=(lower+higher)//2
@@ -15,4 +17,4 @@ result=binarysearch(a,0,len(a)-1,x)
 if result!=-1:
 	print("element is present")
 else:
-	print("elment is not present"
+	print("elment is not present")
