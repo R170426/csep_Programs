@@ -1,4 +1,4 @@
-#Binary search using recursive function
+
 
 def binarysearch(a,lower,higher,x):
 	if higher>=lower:
